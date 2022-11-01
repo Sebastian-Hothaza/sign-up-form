@@ -8,10 +8,68 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .odin-style{
     font-family: norse-bold;
     font-weight: bold;
     font-size: 80px;
+}
+
+.main{
+    display: flex;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+    min-width: 300px;
+    height: 100vh;
+    background: no-repeat center/100% url("images/tent.avif");
+    background-size: cover;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgb(0, 0, 0, 0.3);
+
+    height: 150px;
+    width: 100%;
+    margin-top: 25vh;
+    padding: 20px 0;
+    
+}
+
+.banner img{
+    color: white;
+    height: 100%;
+}
+
+.banner div{
+    color: white;
+    font-family: 'norse-bold', serif;
+    font-size: 96px;
+}
+
+.caption{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+
+
+.content{
+    background-color: #140742;
+    width: 65vw;
+    height:100vh;
 }
