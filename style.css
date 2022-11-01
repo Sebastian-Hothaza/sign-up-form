@@ -1,1 +1,17 @@
+/* Importing fonts via 2 methods */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+@font-face {
+    font-family: norse-bold;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.odin-style{
+    font-family: norse-bold;
+    font-weight: bold;
+    font-size: 80px;
+}
