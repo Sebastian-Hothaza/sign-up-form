@@ -25,7 +25,7 @@
 
 
 
-            <form action="http://httpbin.org/post" method="post" id="signup-form">
+            <form action="http://httpbin.org/post" method="post" id="signup-form" onsubmit="return validatePsw()">
 
                 <div class="formInput">
                     <label for="first_name">First Name:</label>
@@ -52,8 +52,8 @@
                 </div>
 
                 <div class="formInput">
-                    <label for="user_psw_rec">Re-enter password:</label>
-                    <input type="password" id="user_psw_rec" name="user_psw_rec">
+                    <label for="user_psw_rep">Re-enter password:</label>
+                    <input type="password" id="user_psw_rep">
                 </div>
                 
                 
